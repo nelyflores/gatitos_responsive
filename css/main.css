@@ -1,0 +1,81 @@
+body{
+	background-image: url("../img/maxresdefault.jpg");
+width: 100%;
+background-repeat: no-repeat;
+background-size:cover;
+
+
+
+}
+@media (min-width: 480px) {
+	body {
+		background: url("../img/midnight-conversation_861064.jpg");
+	width: 100%;
+	background-repeat: no-repeat;	
+	background-size:cover;
+	
+	}
+}
+
+/* Imagen utilizada en pantallas de anchura 768 px y superior */
+@media (min-width: 768px) {
+	body {
+		background: url("../img/dawn.png");
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size:cover;
+	
+	}
+}
+
+/* Imagen utilizada en pantallas de anchura 1200 px y superior */
+@media (min-width: 1200px) {
+	body {
+		background: url("../img/Landscape.jpg");
+		width: 100%;	
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
+}
+
+/* Imagen de gatitos */
+
+#gatoDespierto {
+	display: none; 
+}
+
+#gatoEstirado {
+	display: none; 
+}
+#gatoDormido {
+	display: block; 
+} 
+
+/* Imagen utilizada en pantallas de anchura 480 px y superior */
+@media (min-width: 480px) {
+	#gatoEstirado {
+		display: block; 
+	}
+	#gatoDormido {
+		display: none; 
+	} 
+}
+
+/* Imagen utilizada en pantallas de anchura 768 px y superior */
+@media (min-width: 768px) {
+	#gatoDespierto {
+		display: block; 
+	}
+	#gatoEstirado {
+		display: none; 
+	}
+}
+
+/* Imagen utilizada en pantallas de anchura 1200 px y superior */
+@media (min-width: 1200px) {
+	#gatoDespierto {
+		display: block; 
+	}
+
+
+}
